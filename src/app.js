@@ -33,3 +33,11 @@ function scholarStudents(students) {
     return studentsScholarship
 }
 console.log(scholarStudents(students))
+
+
+// Part 4
+function myFunction() {
+    console.log("Change to dark theme");
+    document.querySelector(".light-theme").className = "container dark-theme";
+}
+window.onload = myFunction()
